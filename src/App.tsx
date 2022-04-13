@@ -17,6 +17,7 @@ function App() {
         <Route path='/home' element={<HomeComponent/>}/>
         <Route path='/features' element={<FeaturesComponent/>}/>
         <Route path='/about' element={<AboutComponent/>}/>
+        <Route path='/about/:name' element={<AboutComponent/>}/>
       </Routes>
     </main>
     </>
