@@ -1,7 +1,9 @@
-const HomeComponent = ()=>{
-    return(
+const HomeComponent = () => {
+    return (
         <>
-        <h1>This is Home Component</h1>
+            <div className="d-flex flex-column justify-content-center align-items-center mt-5">
+                <h1>This is Home Component</h1>
+            </div>
         </>
     )
 }
